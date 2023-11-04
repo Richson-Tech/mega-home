@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import links from '@/data/data'
+import links from "@/data/data"
 
 const Navbar = () => {
 
