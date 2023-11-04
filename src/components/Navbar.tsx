@@ -5,7 +5,7 @@ import links from "@/data/data"
 const Navbar = () => {
 
   return (
-    <div className=' flex justify-between h-20 bg-[#FAF5E7] text text-black'>
+    <div className=' flex justify-between h-20 bg-white text text-black'>
      <Link href="/" className='flex items-center p-4 text-4xl font-bold font-[AutourOne] hover:text-[#AA825D]'>
      Groove
      </Link>
@@ -15,7 +15,8 @@ const Navbar = () => {
     )}
      </div>
     <Link href='/booknow' className='flex items-center p-4'>
-    <button className="h-10 bg-[#9B804E] w-40 text-white hover:bg-slate-900">Book Now</button>
+    <button className="h-10 w-40 text-black hover:text-red-500">JOIN US</button>
+    <button className="h-10 w-40 text-black hover:text-orange">ADD JOURNEY</button>
     </Link>
 
 
