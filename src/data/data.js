@@ -6,25 +6,19 @@ const links = [
     },
     {
         id: 2,
-        title: "ABOUT US",
-        url: "/about"
+        title: "PAGES",
+        url: "/Pages"
     },
     {
         id: 3,
-        title: "ACCOMODATION",
-        url: "/accomodation"
+        title: "PROPERTY",
+        url: "/Property"
     },
     {
         id: 4,
-        title: "GALLERY",
-        url: "/gallery"
-    },
-    {
-        id: 5,
-        title: "CONTACT",
-        url: "/contact"
+        title: "BLOG",
+        url: "/Blog"
     }
-    
 ]
 
 export default links
