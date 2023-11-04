@@ -14,10 +14,10 @@ const Navbar = () => {
     <Link key={id} className='hover:text-[#9B804E]' href={url}>{title}</Link>
     )}
      </div>
-    <Link href='/booknow' className='flex items-center p-4'>
-    <button className="h-10 w-40 text-black hover:text-red-500">JOIN US</button>
-    <button className="h-10 w-40 text-black hover:text-orange">ADD JOURNEY</button>
-    </Link>
+    <div className='flex items-center p-4'>
+    <span className="h-10 w-40 text-black hover:text-orange-300">JOIN US</span>
+    <span className="h-10 w-40 text-black hover:text-orange-300">ADD JOURNEY</span>
+    </div>
 
 
     </div>
